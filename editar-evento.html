@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Gerenciador de Eventos</title>
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li class="float-right"><a href="eventos.html">Gerenciador de Eventos</a></li>
+      <li class="float-left"><a href="#">Sign out</a> </li>
+    </ul>     
+  </nav>
+
+  <div class="container">
+    
+    <nav class="col-2 sidebar">      
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="eventos.html">Eventos</a>
+        </li>
+      </ul>        
+    </nav>
+
+    <main role="main" class="col-10">
+
+         <div class="col-6">
+
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name" placeholder="Informe o nome do evento">
+          </div>
+          <div class="form-group">
+            <label for="slug">Slug</label>
+            <input type="text" class="form-control" id="slug" placeholder="Informe um slug para o evento">
+          </div>
+
+          <div class="form-group">
+            <label for="date">Data do evento</label>
+            <input type="date" class="form-control" id="date">
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary">Atualizar</button>
+          </div>
+        </form>
+      </main>
+
+    </main>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+</body>
+
+</html>

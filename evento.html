@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Gerenciador de Eventos</title>
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li class="float-right"><a href="eventos.html">Gerenciador de Eventos</a></li>
+      <li class="float-left"><a href="#">Sign out</a> </li>
+    </ul>     
+  </nav>
+
+  <div class="container">
+
+    <nav class="col-2 sidebar">      
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="eventos.html">Eventos</a>
+        </li>
+      </ul>        
+    </nav>
+
+    <main role="main" class="col-10">
+
+      <div class="main-title gray-border">
+
+        <div>
+          <h1 class="h3">Título do evento</h1>
+          <p class="text-muted">data do evento</p>
+        </div>
+
+        <a href="#" class="btn btn-secondary btn-sm">Editar Evento</a>
+
+      </div>
+
+      <div class="main-title gray-border">
+        <h2 class="h6">Sessões</h2>
+        <a href="#" class="btn btn-secondary btn-sm">Criar sessão</a>
+      </div>
+
+      <div class="sessions">
+
+        <!-- LISTAR SESSÕES AQUI -->
+
+
+
+      </div>
+
+    </main>
+  </div>
+
+  <div class="modal fade" id="remove-sessao" tabindex="-1" role="dialog" aria-labelledby="removeSessao"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="removeSessao">Atenção!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Você deseja remover essa sessão?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+        <button type="button" class="btn btn-primary">Sim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+</body>
+
+</html>

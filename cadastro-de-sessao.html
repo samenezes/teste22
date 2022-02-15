@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Gerenciador de Eventos</title>
+  <link href="css/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li class="float-right"><a href="eventos.html">Gerenciador de Eventos</a></li>
+      <li class="float-left"><a href="#">Sign out</a> </li>
+    </ul>     
+  </nav>
+
+  <div class="container">
+
+    <nav class="col-2 sidebar">      
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="eventos.html">Eventos</a>
+        </li>
+      </ul>        
+    </nav>
+
+    <main role="main" class="col-10">
+
+      <h1 class="h4">Cadastre uma nova sessão</h1>
+
+      <div class="col-6">
+
+        <form>
+          <div class="form-group">
+            <label for="name">Título</label>
+            <input type="text" class="form-control" id="name" placeholder="Informe o título da sessão">
+          </div>
+          <div class="form-group">
+            <label for="slug">Tipo</label>
+            <input type="text" class="form-control" id="slug" placeholder="Informe o tipo da sessão">
+          </div>
+
+          <div class="form-group">
+            <label for="time">Horário da sessão</label>
+            <input type="text" class="form-control" id="time" placeholder="Informe o horário da sessão">
+            <p class="text-muted">Informar horário no formato: HH:MM - HH:MM</p>
+          </div>
+
+          <div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </div>
+        </form>
+      </main>
+
+
+    </main>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+</body>
+
+</html>
